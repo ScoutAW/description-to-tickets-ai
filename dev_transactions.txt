@@ -1,0 +1,8 @@
+Project Name: Apex Mobile App
+Client Name: Nexus Corp
+
+We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly. It needs to look modern and user-friendly so everyone loves it. 
+
+The app must work offline everywhere and sync instantly when reconnected. Also, we want it built entirely as a web-only dashboard with no mobile features needed, but optimized specifically for iOS and Android native gestures. 
+
+Please include online payments, user profiles, and push notifications. We need this done as soon as possible with top priority.

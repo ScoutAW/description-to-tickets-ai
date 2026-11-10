@@ -27,8 +27,5 @@ No login or accounts needed. Paste a brief or upload a .txt file.
 - Priority, estimate and deadline are only filled if the brief states them
 - Dependencies are only listed when the brief makes the link clear
 
-## Demo evidence
-See `demo_briefs/` and `demo_outputs/`.
-
 ## Security
 API key is read from the `.env` file, which is git-ignored.

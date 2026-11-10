@@ -1,0 +1,507 @@
+{
+  "extracted": [
+    {
+      "id": "E1",
+      "category": "goal",
+      "statement": "Create a super fast and ultra-secure mobile app for a retail store that lets customers buy products seamlessly.",
+      "quote": "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly."
+    },
+    {
+      "id": "E2",
+      "category": "feature",
+      "statement": "The app must look modern and user-friendly so everyone loves it.",
+      "quote": "It needs to look modern and user-friendly so everyone loves it."
+    },
+    {
+      "id": "E3",
+      "category": "feature",
+      "statement": "The app must work offline everywhere and sync instantly when reconnected.",
+      "quote": "The app must work offline everywhere and sync instantly when reconnected."
+    },
+    {
+      "id": "E4",
+      "category": "constraint",
+      "statement": "The app must be built entirely as a web-only dashboard with no mobile features needed, but optimized specifically for iOS and Android native gestures.",
+      "quote": "Also, we want it built entirely as a web-only dashboard with no mobile features needed, but optimized specifically for iOS and Android native gestures."
+    },
+    {
+      "id": "E5",
+      "category": "feature",
+      "statement": "Include online payments, user profiles, and push notifications.",
+      "quote": "Please include online payments, user profiles, and push notifications."
+    },
+    {
+      "id": "E6",
+      "category": "deadline",
+      "statement": "The project must be completed as soon as possible with top priority.",
+      "quote": "We need this done as soon as possible with top priority."
+    },
+    {
+      "id": "E7",
+      "category": "other",
+      "statement": "Project Name is Apex Mobile App.",
+      "quote": "Project Name: Apex Mobile App"
+    },
+    {
+      "id": "E8",
+      "category": "other",
+      "statement": "Client Name is Nexus Corp.",
+      "quote": "Client Name: Nexus Corp"
+    }
+  ],
+  "tickets": [
+    {
+      "ticket_id": "TASK-001",
+      "title": "Create a super fast and ultra-secure mobile app for a retail store that lets customers buy products seamlessly",
+      "type": "Epic",
+      "description": "Create a super fast and ultra-secure mobile app for a retail store that lets customers buy products seamlessly.",
+      "acceptance_criteria": [],
+      "source_reference": [
+        "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly."
+      ],
+      "dependencies": [],
+      "open_questions": [
+        {
+          "id": "Q1",
+          "question": "The brief states the app must be a mobile app but also that it should be built entirely as a web-only dashboard. Which approach is correct?"
+        },
+        {
+          "id": "Q2",
+          "question": "What specific performance metrics define \"super fast\" for the app?"
+        },
+        {
+          "id": "Q3",
+          "question": "What security standards or certifications are required to satisfy \"ultra-secure\"?"
+        },
+        {
+          "id": "Q4",
+          "question": "What design elements or usability criteria define \"modern\" and \"user-friendly\"?"
+        },
+        {
+          "id": "Q5",
+          "question": "What does \"top priority\" imply in terms of release schedule or resource allocation?"
+        },
+        {
+          "id": "Q6",
+          "question": "Which payment methods and currencies must be supported for online payments?"
+        },
+        {
+          "id": "Q7",
+          "question": "What backend services or APIs are required to support product catalog, inventory, and order processing?"
+        },
+        {
+          "id": "Q8",
+          "question": "What authentication mechanism is required for user profiles?"
+        },
+        {
+          "id": "Q9",
+          "question": "What push notification service or provider should be used?"
+        },
+        {
+          "id": "Q10",
+          "question": "What data storage solution is needed for offline functionality and sync?"
+        },
+        {
+          "id": "Q11",
+          "question": "What hosting or deployment environment is expected for the web-only dashboard?"
+        },
+        {
+          "id": "Q12",
+          "question": "Is a backend server required to handle payments, user data, and push notifications, or is the app purely client-side?"
+        },
+        {
+          "id": "Q13",
+          "question": "What conditions must be true for 'Define performance metrics for \"super fast\"' to be accepted? The brief gives no acceptance criteria."
+        },
+        {
+          "id": "Q14",
+          "question": "What conditions must be true for 'Define security standards for \"ultra-secure\"' to be accepted? The brief gives no acceptance criteria."
+        },
+        {
+          "id": "Q15",
+          "question": "What conditions must be true for 'Clarify mobile app vs web-only dashboard approach' to be accepted? The brief gives no acceptance criteria."
+        }
+      ],
+      "status": "Needs clarification",
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "epic": null
+    },
+    {
+      "ticket_id": "TASK-002",
+      "title": "Define performance metrics for \"super fast\"",
+      "type": "Task",
+      "description": "Define performance metrics for \"super fast\"",
+      "acceptance_criteria": [],
+      "source_reference": [
+        "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly."
+      ],
+      "dependencies": [],
+      "open_questions": [
+        {
+          "id": "Q2",
+          "question": "What specific performance metrics define \"super fast\" for the app?"
+        },
+        {
+          "id": "Q4",
+          "question": "What design elements or usability criteria define \"modern\" and \"user-friendly\"?"
+        },
+        {
+          "id": "Q5",
+          "question": "What does \"top priority\" imply in terms of release schedule or resource allocation?"
+        },
+        {
+          "id": "Q6",
+          "question": "Which payment methods and currencies must be supported for online payments?"
+        },
+        {
+          "id": "Q7",
+          "question": "What backend services or APIs are required to support product catalog, inventory, and order processing?"
+        },
+        {
+          "id": "Q8",
+          "question": "What authentication mechanism is required for user profiles?"
+        },
+        {
+          "id": "Q9",
+          "question": "What push notification service or provider should be used?"
+        },
+        {
+          "id": "Q10",
+          "question": "What data storage solution is needed for offline functionality and sync?"
+        },
+        {
+          "id": "Q11",
+          "question": "What hosting or deployment environment is expected for the web-only dashboard?"
+        },
+        {
+          "id": "Q12",
+          "question": "Is a backend server required to handle payments, user data, and push notifications, or is the app purely client-side?"
+        },
+        {
+          "id": "Q13",
+          "question": "What conditions must be true for 'Define performance metrics for \"super fast\"' to be accepted? The brief gives no acceptance criteria."
+        }
+      ],
+      "status": "Needs clarification",
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "epic": "TASK-001"
+    },
+    {
+      "ticket_id": "TASK-003",
+      "title": "Define security standards for \"ultra-secure\"",
+      "type": "Task",
+      "description": "Define security standards for \"ultra-secure\"",
+      "acceptance_criteria": [],
+      "source_reference": [
+        "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly."
+      ],
+      "dependencies": [],
+      "open_questions": [
+        {
+          "id": "Q3",
+          "question": "What security standards or certifications are required to satisfy \"ultra-secure\"?"
+        },
+        {
+          "id": "Q4",
+          "question": "What design elements or usability criteria define \"modern\" and \"user-friendly\"?"
+        },
+        {
+          "id": "Q5",
+          "question": "What does \"top priority\" imply in terms of release schedule or resource allocation?"
+        },
+        {
+          "id": "Q6",
+          "question": "Which payment methods and currencies must be supported for online payments?"
+        },
+        {
+          "id": "Q7",
+          "question": "What backend services or APIs are required to support product catalog, inventory, and order processing?"
+        },
+        {
+          "id": "Q8",
+          "question": "What authentication mechanism is required for user profiles?"
+        },
+        {
+          "id": "Q9",
+          "question": "What push notification service or provider should be used?"
+        },
+        {
+          "id": "Q10",
+          "question": "What data storage solution is needed for offline functionality and sync?"
+        },
+        {
+          "id": "Q11",
+          "question": "What hosting or deployment environment is expected for the web-only dashboard?"
+        },
+        {
+          "id": "Q12",
+          "question": "Is a backend server required to handle payments, user data, and push notifications, or is the app purely client-side?"
+        },
+        {
+          "id": "Q14",
+          "question": "What conditions must be true for 'Define security standards for \"ultra-secure\"' to be accepted? The brief gives no acceptance criteria."
+        }
+      ],
+      "status": "Needs clarification",
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "epic": "TASK-001"
+    },
+    {
+      "ticket_id": "TASK-004",
+      "title": "Clarify mobile app vs web-only dashboard approach",
+      "type": "Task",
+      "description": "Clarify mobile app vs web-only dashboard approach",
+      "acceptance_criteria": [],
+      "source_reference": [
+        "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly.",
+        "Also, we want it built entirely as a web-only dashboard with no mobile features needed, but optimized specifically for iOS and Android native gestures."
+      ],
+      "dependencies": [],
+      "open_questions": [
+        {
+          "id": "Q1",
+          "question": "The brief states the app must be a mobile app but also that it should be built entirely as a web-only dashboard. Which approach is correct?"
+        },
+        {
+          "id": "Q4",
+          "question": "What design elements or usability criteria define \"modern\" and \"user-friendly\"?"
+        },
+        {
+          "id": "Q5",
+          "question": "What does \"top priority\" imply in terms of release schedule or resource allocation?"
+        },
+        {
+          "id": "Q6",
+          "question": "Which payment methods and currencies must be supported for online payments?"
+        },
+        {
+          "id": "Q7",
+          "question": "What backend services or APIs are required to support product catalog, inventory, and order processing?"
+        },
+        {
+          "id": "Q8",
+          "question": "What authentication mechanism is required for user profiles?"
+        },
+        {
+          "id": "Q9",
+          "question": "What push notification service or provider should be used?"
+        },
+        {
+          "id": "Q10",
+          "question": "What data storage solution is needed for offline functionality and sync?"
+        },
+        {
+          "id": "Q11",
+          "question": "What hosting or deployment environment is expected for the web-only dashboard?"
+        },
+        {
+          "id": "Q12",
+          "question": "Is a backend server required to handle payments, user data, and push notifications, or is the app purely client-side?"
+        },
+        {
+          "id": "Q15",
+          "question": "What conditions must be true for 'Clarify mobile app vs web-only dashboard approach' to be accepted? The brief gives no acceptance criteria."
+        }
+      ],
+      "status": "Needs clarification",
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "epic": "TASK-001"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "type": "contradiction",
+      "question": "The brief states the app must be a mobile app but also that it should be built entirely as a web-only dashboard. Which approach is correct?",
+      "brief_quotes": [
+        "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly.",
+        "Also, we want it built entirely as a web-only dashboard with no mobile features needed, but optimized specifically for iOS and Android native gestures."
+      ],
+      "scope": "specific",
+      "blocks_tickets": [
+        "TASK-004"
+      ]
+    },
+    {
+      "id": "Q2",
+      "type": "vague",
+      "question": "What specific performance metrics define \"super fast\" for the app?",
+      "brief_quotes": [
+        "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly."
+      ],
+      "scope": "specific",
+      "blocks_tickets": [
+        "TASK-002"
+      ]
+    },
+    {
+      "id": "Q3",
+      "type": "vague",
+      "question": "What security standards or certifications are required to satisfy \"ultra-secure\"?",
+      "brief_quotes": [
+        "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly."
+      ],
+      "scope": "specific",
+      "blocks_tickets": [
+        "TASK-003"
+      ]
+    },
+    {
+      "id": "Q4",
+      "type": "vague",
+      "question": "What design elements or usability criteria define \"modern\" and \"user-friendly\"?",
+      "brief_quotes": [
+        "It needs to look modern and user-friendly so everyone loves it."
+      ],
+      "scope": "project-wide",
+      "blocks_tickets": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004"
+      ]
+    },
+    {
+      "id": "Q5",
+      "type": "vague",
+      "question": "What does \"top priority\" imply in terms of release schedule or resource allocation?",
+      "brief_quotes": [
+        "We need this done as soon as possible with top priority."
+      ],
+      "scope": "project-wide",
+      "blocks_tickets": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004"
+      ]
+    },
+    {
+      "id": "Q6",
+      "type": "missing",
+      "question": "Which payment methods and currencies must be supported for online payments?",
+      "brief_quotes": [],
+      "scope": "project-wide",
+      "blocks_tickets": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004"
+      ]
+    },
+    {
+      "id": "Q7",
+      "type": "missing",
+      "question": "What backend services or APIs are required to support product catalog, inventory, and order processing?",
+      "brief_quotes": [],
+      "scope": "project-wide",
+      "blocks_tickets": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004"
+      ]
+    },
+    {
+      "id": "Q8",
+      "type": "missing",
+      "question": "What authentication mechanism is required for user profiles?",
+      "brief_quotes": [],
+      "scope": "project-wide",
+      "blocks_tickets": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004"
+      ]
+    },
+    {
+      "id": "Q9",
+      "type": "missing",
+      "question": "What push notification service or provider should be used?",
+      "brief_quotes": [],
+      "scope": "project-wide",
+      "blocks_tickets": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004"
+      ]
+    },
+    {
+      "id": "Q10",
+      "type": "missing",
+      "question": "What data storage solution is needed for offline functionality and sync?",
+      "brief_quotes": [],
+      "scope": "project-wide",
+      "blocks_tickets": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004"
+      ]
+    },
+    {
+      "id": "Q11",
+      "type": "missing",
+      "question": "What hosting or deployment environment is expected for the web-only dashboard?",
+      "brief_quotes": [],
+      "scope": "project-wide",
+      "blocks_tickets": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004"
+      ]
+    },
+    {
+      "id": "Q12",
+      "type": "scope_gap",
+      "question": "Is a backend server required to handle payments, user data, and push notifications, or is the app purely client-side?",
+      "brief_quotes": [],
+      "scope": "project-wide",
+      "blocks_tickets": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004"
+      ]
+    },
+    {
+      "id": "Q13",
+      "type": "missing",
+      "question": "What conditions must be true for 'Define performance metrics for \"super fast\"' to be accepted? The brief gives no acceptance criteria.",
+      "brief_quotes": [
+        "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly."
+      ],
+      "scope": "specific",
+      "blocks_tickets": [
+        "TASK-002"
+      ]
+    },
+    {
+      "id": "Q14",
+      "type": "missing",
+      "question": "What conditions must be true for 'Define security standards for \"ultra-secure\"' to be accepted? The brief gives no acceptance criteria.",
+      "brief_quotes": [
+        "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly."
+      ],
+      "scope": "specific",
+      "blocks_tickets": [
+        "TASK-003"
+      ]
+    },
+    {
+      "id": "Q15",
+      "type": "missing",
+      "question": "What conditions must be true for 'Clarify mobile app vs web-only dashboard approach' to be accepted? The brief gives no acceptance criteria.",
+      "brief_quotes": [
+        "We want a super fast and ultra-secure mobile app for our retail store that lets customers buy our products seamlessly."
+      ],
+      "scope": "specific",
+      "blocks_tickets": [
+        "TASK-004"
+      ]
+    }
+  ],
+  "warnings": []
+}
